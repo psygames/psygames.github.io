@@ -5,3 +5,4 @@
 - [default ecs](https://github.com/Doraku/DefaultEcs)
 - [Entitas](https://github.com/sschmid/Entitas-CSharp)
 - [Svelto.ECS](https://github.com/sebas77/Svelto.ECS)
+- [Svelto.MiniExamples](https://github.com/sebas77/Svelto.MiniExamples)
