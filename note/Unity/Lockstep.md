@@ -1,5 +1,6 @@
 ## 文章
 
+- [《守望先锋》架构设计和网络同步](https://www.lfzxb.top/ow-gdc-gameplay-architecture-and-netcode/)(非帧同步)
 - [ACT类游戏 帧同步及预表现技术分享](http://awucn.cn/?p=597)
 - [了解格斗游戏网络](http://mauve.mizuumi.net/2012/07/05/understanding-fighting-game-networking/)
 - [帧同步联机战斗（预测，快照，回滚）](https://blog.csdn.net/a673544319/article/details/81697643)
