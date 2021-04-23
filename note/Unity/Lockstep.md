@@ -7,10 +7,10 @@
 - [Lockstep Engine](https://github.com/JiepengTan/LockstepEngine)（帧同步引擎）
 - [Lockstep Tutorial](https://github.com/JiepengTan/Lockstep-Tutorial)（帧同步引擎教学）
 
-- [FixedPoint-Sharp](https://github.com/RomanZhu/FixedPoint-Sharp)（C#定点数）
+- [FixedPoint-Sharp](https://github.com/RomanZhu/FixedPoint-Sharp)（C#定点数，2D数学库）
 - [Deterministic2DPhysics](https://github.com/iaincarsberg/Deterministic2DPhysics)（确定性2D物理，Svelto.ECS相关）
-- [Svelto.Demo.FixedMath](https://github.com/sebas77/Svelto.MiniExamples/tree/26ffc36a041eca7ba5d6d2824b7fe09947023c0e/Example4-NET-SDL/FixedMath/FixedMaths)（Svelto Demo中的确定性2D物理）
-- [bepuphysics2](https://github.com/bepu/bepuphysics2)（确定性3D物理）
+- [Svelto.Demo.FixedMath](https://github.com/sebas77/Svelto.MiniExamples/tree/26ffc36a041eca7ba5d6d2824b7fe09947023c0e/Example4-NET-SDL/FixedMath/FixedMaths)（Svelto Demo中的确定性2D数学库）
+- [bepuphysics2](https://github.com/bepu/bepuphysics2)（非确定性3D物理）
 
 ### 注意点
 - float导致不同设备运行结果不一致。
