@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | UnityWebSocket</title>
+    <title>Unity WebGL Player | UnityWebsocket</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">UnityWebSocket</div>
+        <div id="unity-build-title">UnityWebsocket</div>
       </div>
     </div>
     <script>
@@ -56,15 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/2021_2.loader.js";
+      var loaderUrl = buildUrl + "/WebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/2021_2.data.unityweb",
-        frameworkUrl: buildUrl + "/2021_2.framework.js.unityweb",
-        codeUrl: buildUrl + "/2021_2.wasm.unityweb",
+        dataUrl: buildUrl + "/WebGL.data.unityweb",
+        frameworkUrl: buildUrl + "/WebGL.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebGL.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "com.psygames",
-        productName: "UnityWebSocket",
-        productVersion: "2.6.0",
+        companyName: "com.psygame",
+        productName: "UnityWebsocket",
+        productVersion: "2.6.3",
         showBanner: unityShowBanner,
       };
 
@@ -90,8 +90,6 @@
 
         canvas.style.width = window.innerWidth + 'px';
         canvas.style.height = window.innerHeight + 'px';
-
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
